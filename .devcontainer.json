@@ -1,6 +1,6 @@
 {
 	"name": "fprime-vorago-reference Development Container",
-	"image": "ghcr.io/fprime-community/llvm-vorago-arm-toolchain:lvat-23.1.0.0",
+	"image": "ghcr.io/fprime-community/llvm-vorago-arm-toolchain:lvat-23.1.0.1",
 	"remoteEnv": {
 		"PATH": "${containerWorkspaceFolder}/fprime-venv/bin:${containerEnv:PATH}"
 	},
