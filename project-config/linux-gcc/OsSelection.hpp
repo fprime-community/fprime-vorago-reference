@@ -30,10 +30,14 @@ using Mutex = DelegateMutex;
 class DelegateConditionVariable;
 using ConditionVariable = DelegateConditionVariable;
 
+class DelegateCountingSemaphore;
+using CountingSemaphore = DelegateCountingSemaphore;
+
 }  // namespace Os
 
 #define OS_RAW_TIME_HEADER <Os/DelegateRawTime.hpp>
 #define OS_MUTEX_HEADER <Os/DelegateMutex.hpp>
 #define OS_CONDITION_VARIABLE_HEADER <Os/DelegateConditionVariable.hpp>
+#define OS_COUNTING_SEMAPHORE_HEADER <Os/DelegateCountingSemaphore.hpp>
 
 #endif  // CONFIG_OSSELECTION_HPP
