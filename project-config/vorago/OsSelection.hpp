@@ -45,10 +45,14 @@ using Mutex = DelegateMutex;
 class DelegateConditionVariable;
 using ConditionVariable = DelegateConditionVariable;
 
+class DelegateDirectory;
+using Directory = DelegateDirectory;
+
 }  // namespace Os
 
 #define OS_RAW_TIME_HEADER "Va416x0/Os/TimerSingleRawTime/TimerSingleRawTime.hpp"
 #define OS_MUTEX_HEADER <Os/DelegateMutex.hpp>
 #define OS_CONDITION_VARIABLE_HEADER <Os/DelegateConditionVariable.hpp>
+#define OS_DIRECTORY_HEADER <Os/DelegateDirectory.hpp>
 
 #endif  // CONFIG_OSSELECTION_HPP
